@@ -63,22 +63,13 @@ void readz()
 	zH=(ADC1BUF0>>8)&0x00FF;
 	z=(zH<<8)|(zL);
 	if(z>=1023)
-		z=1023;
-//	sendz();
-	U1TXFloat(z);
-	U1TXChar(NL);
-}	
-
-void sendz()
-{
-	if(z>=1023)
 	{
-		U1TXChar(3);
-		U1TXChar(0xFF);
-	}
-	else
-	{	
-		U1TXChar(zH);
-		U1TXChar(zL);
+		z=1023;
+		zH=3;
+		zL=0xFF;
 	}	
+	U1TXChar(zH);
+	U1TXChar(zL);
+//	U1TXFloat(z);
+	U1TXChar(NL);
 }	

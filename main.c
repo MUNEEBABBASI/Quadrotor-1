@@ -31,6 +31,7 @@ unsigned char flag1c=0,flag2c=0;	// Count the time left with the main
 
 int main(void)
  {
+	char temp=0;
 	unsigned long int pack_wait=0;
     ADPCFG = 0xFFFF;				//make ADC pins all digital	
 	
@@ -49,10 +50,12 @@ int main(void)
 	InitPWM();
 	InitADC();
 	
-//	ifreset();
-	U1TXStr("Resetted.........................");
+	matlab_reset();	
 	while(1)
 	{
+		temp=U1RXChar();
+		if((temp==0)||(temp!='f'))
+			continue;
 		readz();
 		pack_wait=0;
 //		SENupd();

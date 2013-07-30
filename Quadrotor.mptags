@@ -6,177 +6,178 @@
 !_TAG_PROGRAM_VERSION	5.5.4	//
 !_TAG_REVISION_NAME	MCHPTags	//
 !_TAG_REVISION_VERSION	6.0.1	//
-A	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	28;"	v	line:28
-ADC_DONE::(1<<0)	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\adc.c	5;"	d	line:5	file:
-ADC_SAMP::(1<<1)	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\adc.c	6;"	d	line:6	file:
-B	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	29;"	v	line:29
-COUNT_OUT::19	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.h	4;"	d	line:4
-FNOSC_FRCPLL	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\main.c	13;"	v	line:13
-FPWRT_PWR1	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\main.c	17;"	v	line:17
-FWDTEN_OFF	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\main.c	15;"	v	line:15
-F_DIV	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	30;"	v	line:30
-GCP_OFF	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\main.c	16;"	v	line:16
-GYRO_DIV::3200	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.h	7;"	d	line:7
-GYRO_SAT::10	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.h	5;"	d	line:5
-GYX	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	12;"	v	line:12
-GYY	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	12;"	v	line:12
-GYYf	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	32;"	v	line:32
-GYZ	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	12;"	v	line:12
-HSPD::523	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	14;"	d	line:14	file:
-InitADC	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\adc.c	14;"	f	line:14
-InitADC	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\adc.h	6;"	p	line:6	signature:(void)
-InitIMU	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	36;"	f	line:36	signature:(void)
-InitIMU	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.h	29;"	p	line:29	signature:(void)
-InitPWM	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	30;"	f	line:30	signature:(void)
-InitPWM	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.h	7;"	p	line:7	signature:(void)
-InitUART	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.c	9;"	f	line:9	signature:(void)
-InitUART	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.h	34;"	p	line:34	signature:(void)
-KPIT1	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	16;"	v	line:16
-KPIT2	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	16;"	v	line:16
-KPITi	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	16;"	v	line:16
-NL::13	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.h	30;"	d	line:30
-PACK_TIMEOUT::200000	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\main.h	6;"	d	line:6
-PIT	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	11;"	v	line:11
-PITe_DIV::320	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.h	9;"	d	line:9
-PITi_err	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	27;"	v	line:27
-PKT	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	23;"	v	line:23
-PKT_OBT	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	17;"	v	line:17
-POSCMD_NONE	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\main.c	10;"	v	line:10
-PWM	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	111;"	l	line:111
-PWM	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	136;"	l	line:136
-PWM	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	160;"	l	line:160
-PWM	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	184;"	l	line:184
-ROL	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	11;"	v	line:11
-ROLe_DIV::160	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.h	10;"	d	line:10
-SEN_ERR	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	18;"	v	line:18
-SEN_FREE	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	19;"	v	line:19
-SENupd	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	60;"	f	line:60	signature:(void)
-SENupd	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.h	30;"	p	line:30	signature:(void)
-SENupd2	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	145;"	f	line:145	signature:(void)
-SENupd2	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.h	31;"	p	line:31	signature:(void)
-TIMEOUT::1000000	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.c	5;"	d	line:5	file:
-TO_RAD::(x)(x*0.01745329252)	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	34;"	d	line:34	file:
-U1RXChar	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.c	202;"	f	line:202	signature:(void)
-U1RXChar	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.h	37;"	p	line:37	signature:()
-U1SPEED::19	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.h	27;"	d	line:27
-U1TXChar	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.c	137;"	f	line:137	signature:(char data)
-U1TXChar	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.h	35;"	p	line:35	signature:(char)
-U1TXDec	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.c	180;"	f	line:180	signature:(unsigned char temp)
-U1TXDec	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.h	39;"	p	line:39	signature:(unsigned char)
-U1TXFloat	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.c	159;"	f	line:159	signature:(float temp)
-U1TXFloat	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.h	38;"	p	line:38	signature:(float)
-U1TXStr	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.c	147;"	f	line:147	signature:(char* str)
-U1TXStr	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.h	36;"	p	line:36	signature:(char *)
-U2RXChar	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.c	264;"	f	line:264	signature:(void)
-U2RXChar	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.h	42;"	p	line:42	signature:()
-U2RX_ERR	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.c	7;"	v	line:7
-U2SPEED::59	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.h	28;"	d	line:28
-U2TXChar	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.c	242;"	f	line:242	signature:(char data)
-U2TXChar	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.h	40;"	p	line:40	signature:(char)
-U2TXStr	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.c	252;"	f	line:252	signature:(char* str)
-U2TXStr	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.h	41;"	p	line:41	signature:(char *)
-WMAX::580	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	7;"	d	line:7	file:
-WMIN::471	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	6;"	d	line:6	file:
-Wb	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	26;"	v	line:26
-Wf	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	26;"	v	line:26
-Wl	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	26;"	v	line:26
-Wr	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	26;"	v	line:26
-YAW	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	11;"	v	line:11
-YAWe_DIV::160	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.h	8;"	d	line:8
-ZEIG_CORR::0.483;	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	15;"	d	line:15	file:
-_IMU_h	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.h	2;"	d	line:2
-_U2RXInterrupt	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	82;"	f	line:82	signature:(void)
-_adc_h	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\adc.h	2;"	d	line:2
-_main_h	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\main.h	2;"	d	line:2
-_muart_h	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.h	2;"	d	line:2
-_pwm_h	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.h	2;"	d	line:2
-a	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	50;"	l	line:50
-b	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	51;"	l	line:51
-back1	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	22;"	v	line:22
-back2	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	22;"	v	line:22
-backmotor	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	134;"	f	line:134	signature:(float w)
-backmotor	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.h	9;"	p	line:9	signature:(float)
-corrpit	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\main.c	19;"	v	line:19
-delay	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\main.c	21;"	f	line:21	signature:(void)
-f	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	211;"	l	line:211
-f1_i_b	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	26;"	v	line:26
-f1_o_b	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	27;"	v	line:27
-filtertest	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	288;"	f	line:288	signature:(void)
-filtertest	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.h	33;"	p	line:33	signature:(void)
-flag	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	31;"	v	line:31
-flag	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.c	208;"	l	line:208
-flag1c	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\main.c	29;"	v	line:29
-flag2c	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\main.c	29;"	v	line:29
-flag_angle	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	15;"	v	line:15
-flushRX2	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.c	326;"	f	line:326	signature:(void)
-flushRX2	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.h	43;"	p	line:43	signature:()
-front1	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	21;"	v	line:21
-front2	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	21;"	v	line:21
-frontmotor	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	109;"	f	line:109	signature:(float w)
-frontmotor	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.h	8;"	p	line:8	signature:(float)
-getangle	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	44;"	f	line:44	signature:(char *t,float div)
-getangle	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.h	32;"	p	line:32	signature:(char *,float)
-gyyb	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	28;"	v	line:28
-i	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	174;"	l	line:174
-i	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\adc.c	58;"	l	line:58
-i	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\main.c	23;"	l	line:23
-i	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.c	165;"	l	line:165
-i	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.c	187;"	l	line:187
-i	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.c	207;"	l	line:207
-i	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.c	271;"	l	line:271
-i	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	32;"	l	line:32
-ifreset	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.c	365;"	f	line:365	signature:(void)
-ifreset	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.h	45;"	p	line:45	signature:(void)
-indx	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	22;"	v	line:22
-inp_str	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	20;"	v	line:20
-left1	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	24;"	v	line:24
-left2	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	24;"	v	line:24
-leftmotor	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	158;"	f	line:158	signature:(float w)
-leftmotor	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.h	10;"	p	line:10	signature:(float)
-main	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\main.c	32;"	f	line:32	signature:(void)
-pack_wait	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	155;"	l	line:155
-pack_wait	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\main.c	34;"	l	line:34
-pit	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	9;"	v	line:9
-pit_prev	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	13;"	v	line:13
-pit_sat	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	13;"	v	line:13
-pitch_stabilize	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	206;"	f	line:206	signature:(void)
-pitch_stabilize	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.h	14;"	p	line:14	signature:()
-readz	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\adc.c	54;"	f	line:54
-readz	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\adc.h	7;"	p	line:7	signature:()
-right1	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	23;"	v	line:23
-right2	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	23;"	v	line:23
-rightmotor	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	182;"	f	line:182	signature:(float w)
-rightmotor	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.h	11;"	p	line:11	signature:(float)
-rol	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	9;"	v	line:9
-sendz	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\adc.c	72;"	f	line:72
-sendz	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\adc.h	8;"	p	line:8	signature:()
-t1	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	167;"	l	line:167
-t2	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	168;"	l	line:168
-t3	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	169;"	l	line:169
-t4	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	170;"	l	line:170
-t5	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	171;"	l	line:171
-t6	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	172;"	l	line:172
-temp	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	173;"	l	line:173
-temp	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	84;"	l	line:84
-temp	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.c	272;"	l	line:272
-temp	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.c	331;"	l	line:331
-temp	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	226;"	l	line:226
-temp_str	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.c	164;"	l	line:164
-temp_str	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.c	186;"	l	line:186
-update_motor	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	216;"	f	line:216
-update_motor	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.h	15;"	p	line:15	signature:()
-xGET_ANGLE_VERBOSE	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.h	13;"	d	line:13
-xMAIN_CYCLES::	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\main.h	4;"	d	line:4
-xSENupd2_Verbose::	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.h	16;"	d	line:16
-xSENupd_Verbose::	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.h	14;"	d	line:14
-xU1RXChar_Verbose::	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.h	6;"	d	line:6
-xU2RXChar_Verbose::	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.h	7;"	d	line:7
-xU2RXChar_Verbose_2::	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.h	8;"	d	line:8
-xU2RXInterrupt_Verbose	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.h	15;"	d	line:15
-xflushRX2_Verbose	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\muart.h	5;"	d	line:5
-yaw	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\IMU.c	9;"	v	line:9
-z	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\adc.c	9;"	v	line:9
-zH	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\adc.c	10;"	v	line:10
-zL	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\adc.c	10;"	v	line:10
-zeig	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.c	224;"	f	line:224	signature:(void)
-zeig	C:\Documents and Settings\Abraham\Desktop\Dropbox\Quadrotor\MPLAb\Workspace\Quadrotor\pwm.h	13;"	p	line:13	signature:(void)
+A	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	28;"	v	line:28
+ADC_DONE::(1<<0)	C:\Documents and Settings\Abraham\git\Quadrotor\adc.c	5;"	d	line:5	file:
+ADC_SAMP::(1<<1)	C:\Documents and Settings\Abraham\git\Quadrotor\adc.c	6;"	d	line:6	file:
+B	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	29;"	v	line:29
+COUNT_OUT::19	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.h	4;"	d	line:4
+FNOSC_FRCPLL	C:\Documents and Settings\Abraham\git\Quadrotor\main.c	13;"	v	line:13
+FPWRT_PWR1	C:\Documents and Settings\Abraham\git\Quadrotor\main.c	17;"	v	line:17
+FWDTEN_OFF	C:\Documents and Settings\Abraham\git\Quadrotor\main.c	15;"	v	line:15
+F_DIV	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	30;"	v	line:30
+GCP_OFF	C:\Documents and Settings\Abraham\git\Quadrotor\main.c	16;"	v	line:16
+GYRO_DIV::3200	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.h	7;"	d	line:7
+GYRO_SAT::10	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.h	5;"	d	line:5
+GYX	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	12;"	v	line:12
+GYY	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	12;"	v	line:12
+GYYf	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	32;"	v	line:32
+GYZ	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	12;"	v	line:12
+HSPD::523	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	14;"	d	line:14	file:
+InitADC	C:\Documents and Settings\Abraham\git\Quadrotor\adc.c	14;"	f	line:14
+InitADC	C:\Documents and Settings\Abraham\git\Quadrotor\adc.h	6;"	p	line:6	signature:(void)
+InitIMU	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	36;"	f	line:36	signature:(void)
+InitIMU	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.h	29;"	p	line:29	signature:(void)
+InitPWM	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	30;"	f	line:30	signature:(void)
+InitPWM	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.h	7;"	p	line:7	signature:(void)
+InitUART	C:\Documents and Settings\Abraham\git\Quadrotor\muart.c	9;"	f	line:9	signature:(void)
+InitUART	C:\Documents and Settings\Abraham\git\Quadrotor\muart.h	34;"	p	line:34	signature:(void)
+KPIT1	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	16;"	v	line:16
+KPIT2	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	16;"	v	line:16
+KPITi	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	16;"	v	line:16
+NL::13	C:\Documents and Settings\Abraham\git\Quadrotor\muart.h	30;"	d	line:30
+PACK_TIMEOUT::200000	C:\Documents and Settings\Abraham\git\Quadrotor\main.h	6;"	d	line:6
+PIT	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	11;"	v	line:11
+PITe_DIV::320	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.h	9;"	d	line:9
+PITi_err	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	27;"	v	line:27
+PKT	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	23;"	v	line:23
+PKT_OBT	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	17;"	v	line:17
+POSCMD_NONE	C:\Documents and Settings\Abraham\git\Quadrotor\main.c	10;"	v	line:10
+PWM	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	111;"	l	line:111
+PWM	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	136;"	l	line:136
+PWM	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	160;"	l	line:160
+PWM	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	184;"	l	line:184
+ROL	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	11;"	v	line:11
+ROLe_DIV::160	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.h	10;"	d	line:10
+SEN_ERR	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	18;"	v	line:18
+SEN_FREE	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	19;"	v	line:19
+SENupd	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	60;"	f	line:60	signature:(void)
+SENupd	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.h	30;"	p	line:30	signature:(void)
+SENupd2	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	145;"	f	line:145	signature:(void)
+SENupd2	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.h	31;"	p	line:31	signature:(void)
+TIMEOUT::1000000	C:\Documents and Settings\Abraham\git\Quadrotor\muart.c	5;"	d	line:5	file:
+TO_RAD::(x)(x*0.01745329252)	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	34;"	d	line:34	file:
+U1RXChar	C:\Documents and Settings\Abraham\git\Quadrotor\muart.c	202;"	f	line:202	signature:(void)
+U1RXChar	C:\Documents and Settings\Abraham\git\Quadrotor\muart.h	37;"	p	line:37	signature:()
+U1SPEED::19	C:\Documents and Settings\Abraham\git\Quadrotor\muart.h	27;"	d	line:27
+U1TXChar	C:\Documents and Settings\Abraham\git\Quadrotor\muart.c	137;"	f	line:137	signature:(char data)
+U1TXChar	C:\Documents and Settings\Abraham\git\Quadrotor\muart.h	35;"	p	line:35	signature:(char)
+U1TXDec	C:\Documents and Settings\Abraham\git\Quadrotor\muart.c	180;"	f	line:180	signature:(unsigned char temp)
+U1TXDec	C:\Documents and Settings\Abraham\git\Quadrotor\muart.h	39;"	p	line:39	signature:(unsigned char)
+U1TXFloat	C:\Documents and Settings\Abraham\git\Quadrotor\muart.c	159;"	f	line:159	signature:(float temp)
+U1TXFloat	C:\Documents and Settings\Abraham\git\Quadrotor\muart.h	38;"	p	line:38	signature:(float)
+U1TXStr	C:\Documents and Settings\Abraham\git\Quadrotor\muart.c	147;"	f	line:147	signature:(char* str)
+U1TXStr	C:\Documents and Settings\Abraham\git\Quadrotor\muart.h	36;"	p	line:36	signature:(char *)
+U2RXChar	C:\Documents and Settings\Abraham\git\Quadrotor\muart.c	264;"	f	line:264	signature:(void)
+U2RXChar	C:\Documents and Settings\Abraham\git\Quadrotor\muart.h	42;"	p	line:42	signature:()
+U2RX_ERR	C:\Documents and Settings\Abraham\git\Quadrotor\muart.c	7;"	v	line:7
+U2SPEED::59	C:\Documents and Settings\Abraham\git\Quadrotor\muart.h	28;"	d	line:28
+U2TXChar	C:\Documents and Settings\Abraham\git\Quadrotor\muart.c	242;"	f	line:242	signature:(char data)
+U2TXChar	C:\Documents and Settings\Abraham\git\Quadrotor\muart.h	40;"	p	line:40	signature:(char)
+U2TXStr	C:\Documents and Settings\Abraham\git\Quadrotor\muart.c	252;"	f	line:252	signature:(char* str)
+U2TXStr	C:\Documents and Settings\Abraham\git\Quadrotor\muart.h	41;"	p	line:41	signature:(char *)
+WMAX::580	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	7;"	d	line:7	file:
+WMIN::471	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	6;"	d	line:6	file:
+Wb	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	26;"	v	line:26
+Wf	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	26;"	v	line:26
+Wl	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	26;"	v	line:26
+Wr	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	26;"	v	line:26
+YAW	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	11;"	v	line:11
+YAWe_DIV::160	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.h	8;"	d	line:8
+ZEIG_CORR::0.483;	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	15;"	d	line:15	file:
+_IMU_h	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.h	2;"	d	line:2
+_U2RXInterrupt	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	82;"	f	line:82	signature:(void)
+_adc_h	C:\Documents and Settings\Abraham\git\Quadrotor\adc.h	2;"	d	line:2
+_main_h	C:\Documents and Settings\Abraham\git\Quadrotor\main.h	2;"	d	line:2
+_muart_h	C:\Documents and Settings\Abraham\git\Quadrotor\muart.h	2;"	d	line:2
+_pwm_h	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.h	2;"	d	line:2
+a	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	50;"	l	line:50
+b	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	51;"	l	line:51
+back1	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	22;"	v	line:22
+back2	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	22;"	v	line:22
+backmotor	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	134;"	f	line:134	signature:(float w)
+backmotor	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.h	9;"	p	line:9	signature:(float)
+corrpit	C:\Documents and Settings\Abraham\git\Quadrotor\main.c	19;"	v	line:19
+delay	C:\Documents and Settings\Abraham\git\Quadrotor\main.c	21;"	f	line:21	signature:(void)
+f	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	211;"	l	line:211
+f1_i_b	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	26;"	v	line:26
+f1_o_b	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	27;"	v	line:27
+filtertest	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	288;"	f	line:288	signature:(void)
+filtertest	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.h	33;"	p	line:33	signature:(void)
+flag	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	31;"	v	line:31
+flag	C:\Documents and Settings\Abraham\git\Quadrotor\muart.c	208;"	l	line:208
+flag1c	C:\Documents and Settings\Abraham\git\Quadrotor\main.c	29;"	v	line:29
+flag2c	C:\Documents and Settings\Abraham\git\Quadrotor\main.c	29;"	v	line:29
+flag_angle	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	15;"	v	line:15
+flushRX2	C:\Documents and Settings\Abraham\git\Quadrotor\muart.c	326;"	f	line:326	signature:(void)
+flushRX2	C:\Documents and Settings\Abraham\git\Quadrotor\muart.h	43;"	p	line:43	signature:()
+front1	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	21;"	v	line:21
+front2	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	21;"	v	line:21
+frontmotor	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	109;"	f	line:109	signature:(float w)
+frontmotor	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.h	8;"	p	line:8	signature:(float)
+getangle	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	44;"	f	line:44	signature:(char *t,float div)
+getangle	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.h	32;"	p	line:32	signature:(char *,float)
+gyyb	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	28;"	v	line:28
+i	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	174;"	l	line:174
+i	C:\Documents and Settings\Abraham\git\Quadrotor\adc.c	58;"	l	line:58
+i	C:\Documents and Settings\Abraham\git\Quadrotor\main.c	23;"	l	line:23
+i	C:\Documents and Settings\Abraham\git\Quadrotor\muart.c	165;"	l	line:165
+i	C:\Documents and Settings\Abraham\git\Quadrotor\muart.c	187;"	l	line:187
+i	C:\Documents and Settings\Abraham\git\Quadrotor\muart.c	207;"	l	line:207
+i	C:\Documents and Settings\Abraham\git\Quadrotor\muart.c	271;"	l	line:271
+i	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	32;"	l	line:32
+ifreset	C:\Documents and Settings\Abraham\git\Quadrotor\muart.c	373;"	f	line:373	signature:(void)
+ifreset	C:\Documents and Settings\Abraham\git\Quadrotor\muart.h	45;"	p	line:45	signature:(void)
+indx	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	22;"	v	line:22
+inp_str	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	20;"	v	line:20
+left1	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	24;"	v	line:24
+left2	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	24;"	v	line:24
+leftmotor	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	158;"	f	line:158	signature:(float w)
+leftmotor	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.h	10;"	p	line:10	signature:(float)
+main	C:\Documents and Settings\Abraham\git\Quadrotor\main.c	32;"	f	line:32	signature:(void)
+matlab_reset	C:\Documents and Settings\Abraham\git\Quadrotor\muart.c	365;"	f	line:365	signature:(void)
+pack_wait	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	155;"	l	line:155
+pack_wait	C:\Documents and Settings\Abraham\git\Quadrotor\main.c	35;"	l	line:35
+pit	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	9;"	v	line:9
+pit_prev	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	13;"	v	line:13
+pit_sat	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	13;"	v	line:13
+pitch_stabilize	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	206;"	f	line:206	signature:(void)
+pitch_stabilize	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.h	14;"	p	line:14	signature:()
+readz	C:\Documents and Settings\Abraham\git\Quadrotor\adc.c	54;"	f	line:54
+readz	C:\Documents and Settings\Abraham\git\Quadrotor\adc.h	7;"	p	line:7	signature:()
+right1	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	23;"	v	line:23
+right2	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	23;"	v	line:23
+rightmotor	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	182;"	f	line:182	signature:(float w)
+rightmotor	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.h	11;"	p	line:11	signature:(float)
+rol	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	9;"	v	line:9
+sendz	C:\Documents and Settings\Abraham\git\Quadrotor\adc.h	8;"	p	line:8	signature:()
+t1	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	167;"	l	line:167
+t2	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	168;"	l	line:168
+t3	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	169;"	l	line:169
+t4	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	170;"	l	line:170
+t5	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	171;"	l	line:171
+t6	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	172;"	l	line:172
+temp	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	173;"	l	line:173
+temp	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	84;"	l	line:84
+temp	C:\Documents and Settings\Abraham\git\Quadrotor\main.c	34;"	l	line:34
+temp	C:\Documents and Settings\Abraham\git\Quadrotor\muart.c	272;"	l	line:272
+temp	C:\Documents and Settings\Abraham\git\Quadrotor\muart.c	331;"	l	line:331
+temp	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	226;"	l	line:226
+temp_str	C:\Documents and Settings\Abraham\git\Quadrotor\muart.c	164;"	l	line:164
+temp_str	C:\Documents and Settings\Abraham\git\Quadrotor\muart.c	186;"	l	line:186
+update_motor	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	216;"	f	line:216
+update_motor	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.h	15;"	p	line:15	signature:()
+xGET_ANGLE_VERBOSE	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.h	13;"	d	line:13
+xMAIN_CYCLES::	C:\Documents and Settings\Abraham\git\Quadrotor\main.h	4;"	d	line:4
+xSENupd2_Verbose::	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.h	16;"	d	line:16
+xSENupd_Verbose::	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.h	14;"	d	line:14
+xU1RXChar_Verbose::	C:\Documents and Settings\Abraham\git\Quadrotor\muart.h	6;"	d	line:6
+xU2RXChar_Verbose::	C:\Documents and Settings\Abraham\git\Quadrotor\muart.h	7;"	d	line:7
+xU2RXChar_Verbose_2::	C:\Documents and Settings\Abraham\git\Quadrotor\muart.h	8;"	d	line:8
+xU2RXInterrupt_Verbose	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.h	15;"	d	line:15
+xflushRX2_Verbose	C:\Documents and Settings\Abraham\git\Quadrotor\muart.h	5;"	d	line:5
+yaw	C:\Documents and Settings\Abraham\git\Quadrotor\IMU.c	9;"	v	line:9
+z	C:\Documents and Settings\Abraham\git\Quadrotor\adc.c	9;"	v	line:9
+zH	C:\Documents and Settings\Abraham\git\Quadrotor\adc.c	10;"	v	line:10
+zL	C:\Documents and Settings\Abraham\git\Quadrotor\adc.c	10;"	v	line:10
+zeig	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.c	224;"	f	line:224	signature:(void)
+zeig	C:\Documents and Settings\Abraham\git\Quadrotor\pwm.h	13;"	p	line:13	signature:(void)

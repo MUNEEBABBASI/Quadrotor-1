@@ -100,10 +100,10 @@ void InitPWM(void)
     P1TCONbits.PTEN   = 1;  	 // Enable PWM Timerbase 
     P2TCONbits.PTEN   = 1;  	 // Enable PWM Timerbase 
     
-    U1TXStr("Delay macha delay");
-    U1TXChar(NL);
-    for(i=0;i<25000000;++i);
-	ifreset();
+//    U1TXStr("Delay macha delay");
+//    U1TXChar(NL);
+//    for(i=0;i<25000000;++i);
+//	  ifreset();
 }
 
 void frontmotor(float w)

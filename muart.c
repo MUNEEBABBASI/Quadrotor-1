@@ -362,6 +362,14 @@ Flush the UART buffer -> IMU
 	}
 }
 
+void matlab_reset(void)
+{
+	while(U1RXChar()!='a')
+	{
+		U1TXStr("A");
+	}
+}
+
 void ifreset(void)
 {
 	while(U1RXChar()!='a')
