@@ -41,7 +41,6 @@ int main(void)
 	CLKDIVbits.PLLPRE=0;		// N2=2
 	OSCTUN=0;					// Tune FRC oscillator, if FRC is used
 
-
 	while(OSCCONbits.LOCK != 1);// Wait for PLL to lock
 	RCONbits.SWDTEN = 0;      	// Disable Watch Dog Timer
 
@@ -53,9 +52,11 @@ int main(void)
 	matlab_reset();	
 	while(1)
 	{
+		//Trigger section
 		temp=U1RXChar();
 		if((temp==0)||(temp!='f'))
 			continue;
+		//Functions
 		readz();
 		pack_wait=0;
 //		SENupd();
