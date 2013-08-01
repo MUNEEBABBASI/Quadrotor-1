@@ -38,7 +38,7 @@ void InitADC()
 	AD1CON2bits.SMPI = 0;			// SMPI must be 0
 
     //AD1CHS0: A/D Input Select Register
-    AD1CHS0bits.CH0SA = 5;			// MUXA +ve input selection (AN4) for CH0
+    AD1CHS0bits.CH0SA = 5;			// MUXA +ve input selection (AN5) for CH0
 	AD1CHS0bits.CH0NA = 0;			// MUXA -ve input selection (Vref-) for CH0
 
     //AD1PCFGH/AD1PCFGL: Port Configuration Register

@@ -29,7 +29,7 @@ float gyyb[]={0,0,0,0,0};
 
 void InitPWM(void)
 {
-	unsigned long int i=0;
+//	unsigned long int i=0;
 	TRISB = TRISB & ~(1<<14);           // make sure PWM pins are set to be outputs
   	TRISB = TRISB & ~(1<<12);           // make sure PWM pins are set to be outputs
   	TRISB = TRISB & ~(1<<10);           // make sure PWM pins are set to be outputs
