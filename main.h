@@ -1,7 +1,7 @@
 #ifndef _main_h
 #define _main_h
 
-#define MAIN_CYCLES					// Count the time left with the main
+#define xMAIN_CYCLES					// Count the time left with the main
 
 #define PACK_TIMEOUT 200000				//120 ms wait
 										// .6 uS => 12 ms. => Total 24 ms wait

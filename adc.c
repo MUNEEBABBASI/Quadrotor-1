@@ -7,8 +7,9 @@
 //#define ADON (1<<15)
 
 unsigned int z=0;
-char zH=0,zL=0;
-
+float zfifo[]={0,0,0},zfilt[]={0,0};
+unsigned char zH=0,zL=0,t=0;
+float fA[]={-1.6169,0.6794},fB[]={0.0164,0.0296,0.0164};
 // ADC pin is pin 7 of the uC.
 
 void InitADC()
@@ -55,7 +56,11 @@ void readz()
 {
 	AD1CON1bits.DONE=0;
 	AD1CON1bits.SAMP=1;
-	int i=0;
+
+	unsigned int i=0;
+	float zf=0;
+	
+	//Waiting for 10 ms.:P
 	for(i=0;i<400;++i);
 	AD1CON1bits.SAMP=0;
 	while(AD1CON1bits.DONE==0);
@@ -70,6 +75,38 @@ void readz()
 	}	
 	U1TXChar(zH);
 	U1TXChar(zL);
-//	U1TXFloat(z);
+	U1TXChar(' ');
+	// Code for filter
+	//FIFO buffer
+	zfifo[0]=z;
+    if(t==1)
+    {
+        zf=fB[0]*zfifo[0];
+        t=t+1;
+    }     
+    else if(t==2)
+    {
+        zf=fB[0]*zfifo[0]+fB[1]*zfifo[1]-fA[0]*zfilt[0];
+        t=t+1;
+    }     
+    else 
+    {
+		zf=fB[0]*zfifo[0]+fB[1]*zfifo[1]+fB[2]*zfifo[2]-fA[0]*zfilt[0]-fA[1]*zfilt[1];
+	}
+	//FIFO buffer updation
+    zfifo[2]=zfifo[1];
+    zfifo[1]=zfifo[0];
+    zfilt[1]=zfilt[0];
+    zfilt[0]=zf;
+    
+    z=zf;
+    // Code for polyfit	
+	//	B3=[0.4097,-0.1129;0.4968,-0.1290;0.2613,-0.0484;-0.2968,0.1290]';
+
+	// Code for decomposition into characters again
+	zL=(z&0x00FF); 		
+	zH=(z>>8)&0x00FF;
+	U1TXChar(zH);
+	U1TXChar(zL);
 	U1TXChar(NL);
 }	

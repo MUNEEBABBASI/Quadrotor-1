@@ -5,6 +5,5 @@ extern unsigned int z;
 
 void InitADC(void);
 void readz();
-void sendz();
 
 #endif

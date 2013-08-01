@@ -148,28 +148,28 @@ Program Memory  [Origin = 0x200, Length = 0x155fe]
 section                    address   length (PC units)   length (bytes) (dec)
 -------                    -------   -----------------   --------------------
 .text                        0x200              0x17c4          0x23a6  (9126)
-.const                      0x19c4                0x90            0xd8  (216)
-.text                       0x1a54               0xbd4          0x11be  (4542)
-.dinit                      0x2628               0x25a           0x387  (903)
-.text                       0x2882               0x19a           0x267  (615)
+.const                      0x19c4                0x94            0xde  (222)
+.text                       0x1a58               0xbd4          0x11be  (4542)
+.dinit                      0x262c               0x274           0x3ae  (942)
+.text                       0x28a0               0x290           0x3d8  (984)
 
-                     Total program memory used (bytes):         0x3c2a  (15402) 11%
+                     Total program memory used (bytes):         0x3dc8  (15816) 12%
 
 
 Data Memory  [Origin = 0x800, Length = 0x4000]
 
 section                    address      alignment gaps    total length  (dec)
 -------                    -------      --------------    -------------------
-.ndata                       0x800                   0            0x9e  (158)
-.nbss                        0x89e                   0            0x14  (20)
-.ndata                       0x8b2                   0            0x10  (16)
-.data                        0x8c2                   0           0x200  (512)
-.dconst                      0xac2                   0            0x2a  (42)
-.data                        0xaec                   0            0x26  (38)
-.bss                         0xb12                   0             0x6  (6)
-.data                        0xb18                   0             0x2  (2)
+.ndata                       0x800                   0            0xcc  (204)
+.nbss                        0x8cc                   0            0x14  (20)
+.ndata                       0x8e0                   0             0xa  (10)
+.data                        0x8ea                   0           0x200  (512)
+.dconst                      0xaea                   0            0x2a  (42)
+.data                        0xb14                   0            0x26  (38)
+.bss                         0xb3a                   0             0x6  (6)
+.data                        0xb40                   0             0x2  (2)
 
-                        Total data memory used (bytes):          0x31a  (794) 4%
+                        Total data memory used (bytes):          0x342  (834) 5%
 
 
 Dynamic Memory Usage
@@ -177,9 +177,9 @@ Dynamic Memory Usage
 region                     address                      maximum length  (dec)
 ------                     -------                      ---------------------
 heap                             0                                   0  (0)
-stack                        0xb1a                              0x3ce6  (15590)
+stack                        0xb42                              0x3cbe  (15550)
 
-                        Maximum dynamic memory (bytes):         0x3ce6  (15590)
+                        Maximum dynamic memory (bytes):         0x3cbe  (15550)
 
 
 External Symbols in Data Memory (by address):
@@ -217,25 +217,28 @@ External Symbols in Data Memory (by address):
                     0x0882                  _Wr
                     0x0886                  _PITi_err
                     0x088a                  _gyyb
-                    0x089e                  _inp_str
-                    0x08b2                  _corrpit
-                    0x08b6                  _still_working
-                    0x08b7                  _flag1c
-                    0x08b8                  _flag2c
-                    0x08ba                  _z
-                    0x08bc                  _zH
-                    0x08bd                  _zL
-                    0x08be                  _U2RX_ERR
-                    0x08c0                  _new_frame
-                    0x08c1                  _timer_clash
-                    0x08c2                  __npowers_
-                    0x0972                  __powers_
-                    0x0aec                  __Files
-                    0x0aee                  __iob
-                    0x0b12                  __sobuf
-                    0x0b14                  __sibuf
-                    0x0b16                  __outdone
-                    0x0b18                  ___C30_UART
+                    0x089e                  _z
+                    0x08a0                  _zfifo
+                    0x08ac                  _zfilt
+                    0x08b4                  _zH
+                    0x08b5                  _zL
+                    0x08b6                  _t
+                    0x08b8                  _fA
+                    0x08c0                  _fB
+                    0x08cc                  _inp_str
+                    0x08e0                  _corrpit
+                    0x08e4                  _still_working
+                    0x08e6                  _U2RX_ERR
+                    0x08e8                  _new_frame
+                    0x08e9                  _timer_clash
+                    0x08ea                  __npowers_
+                    0x099a                  __powers_
+                    0x0b14                  __Files
+                    0x0b16                  __iob
+                    0x0b3a                  __sobuf
+                    0x0b3c                  __sibuf
+                    0x0b3e                  __outdone
+                    0x0b40                  ___C30_UART
 
 External Symbols in Data Memory (by name):
 
@@ -256,41 +259,44 @@ External Symbols in Data Memory (by name):
                     0x0814                  _ROL
                     0x082e                  _SEN_ERR
                     0x082f                  _SEN_FREE
-                    0x08be                  _U2RX_ERR
+                    0x08e6                  _U2RX_ERR
                     0x087a                  _Wb
                     0x0876                  _Wf
                     0x087e                  _Wl
                     0x0882                  _Wr
                     0x080c                  _YAW
-                    0x0aec                  __Files
-                    0x0b18                  ___C30_UART
-                    0x0aee                  __iob
-                    0x08c2                  __npowers_
-                    0x0b16                  __outdone
-                    0x0972                  __powers_
-                    0x0b14                  __sibuf
-                    0x0b12                  __sobuf
-                    0x08b2                  _corrpit
+                    0x0b14                  __Files
+                    0x0b40                  ___C30_UART
+                    0x0b16                  __iob
+                    0x08ea                  __npowers_
+                    0x0b3e                  __outdone
+                    0x099a                  __powers_
+                    0x0b3c                  __sibuf
+                    0x0b3a                  __sobuf
+                    0x08e0                  _corrpit
                     0x0834                  _f1_i_b
                     0x0840                  _f1_o_b
+                    0x08b8                  _fA
+                    0x08c0                  _fB
                     0x0864                  _flag
-                    0x08b7                  _flag1c
-                    0x08b8                  _flag2c
                     0x082c                  _flag_angle
                     0x088a                  _gyyb
                     0x0830                  _indx
-                    0x089e                  _inp_str
-                    0x08c0                  _new_frame
+                    0x08cc                  _inp_str
+                    0x08e8                  _new_frame
                     0x0804                  _pit
                     0x0824                  _pit_prev
                     0x0828                  _pit_sat
                     0x0808                  _rol
-                    0x08b6                  _still_working
-                    0x08c1                  _timer_clash
+                    0x08e4                  _still_working
+                    0x08b6                  _t
+                    0x08e9                  _timer_clash
                     0x0800                  _yaw
-                    0x08ba                  _z
-                    0x08bc                  _zH
-                    0x08bd                  _zL
+                    0x089e                  _z
+                    0x08b4                  _zH
+                    0x08b5                  _zL
+                    0x08a0                  _zfifo
+                    0x08ac                  _zfilt
 
 External Symbols in Program Memory (by address):
 
@@ -358,61 +364,61 @@ External Symbols in Program Memory (by address):
                   0x001a48                  _right2
                   0x001a4c                  _left1
                   0x001a50                  _left2
-                  0x001a54                  _InitPWM
-                  0x001b2a                  _frontmotor
-                  0x001be6                  _backmotor
-                  0x001ca2                  _leftmotor
-                  0x001d52                  _rightmotor
-                  0x001e02                  _pitch_stabilize
-                  0x001e46                  _update_motor
-                  0x001e64                  _zeig
-                  0x001ea8                  _InitIMU
-                  0x001eba                  _getangle
-                  0x001ef6                  _SENupd
-                  0x001f16                  __U2RXInterrupt
-                  0x001fa2                  _SENupd2
-                  0x002220                  _filtertest
-                  0x0022b6                  _InitUART
-                  0x0023d0                  _U1TXChar
-                  0x0023e4                  _U1TXStr
-                  0x0023fe                  _U1TXFloat
-                  0x002442                  _U1TXDec
-                  0x002484                  _U1RXChar
-                  0x0024f8                  _U2TXChar
-                  0x00250c                  _U2TXStr
-                  0x002526                  _U2RXChar
-                  0x0025a0                  _flushRX2
-                  0x0025c2                  _matlab_reset
-                  0x0025d8                  _ifreset
-                  0x002882                  _InitADC
-                  0x0028d2                  _readz
-                  0x002930                  _delay
-                  0x00294e                  _main
-                  0x0029d0                  _InitTimer
-                  0x002a08                  __T1Interrupt
+                  0x001a58                  _InitPWM
+                  0x001b2e                  _frontmotor
+                  0x001bea                  _backmotor
+                  0x001ca6                  _leftmotor
+                  0x001d56                  _rightmotor
+                  0x001e06                  _pitch_stabilize
+                  0x001e4a                  _update_motor
+                  0x001e68                  _zeig
+                  0x001eac                  _InitIMU
+                  0x001ebe                  _getangle
+                  0x001efa                  _SENupd
+                  0x001f1a                  __U2RXInterrupt
+                  0x001fa6                  _SENupd2
+                  0x002224                  _filtertest
+                  0x0022ba                  _InitUART
+                  0x0023d4                  _U1TXChar
+                  0x0023e8                  _U1TXStr
+                  0x002402                  _U1TXFloat
+                  0x002446                  _U1TXDec
+                  0x002488                  _U1RXChar
+                  0x0024fc                  _U2TXChar
+                  0x002510                  _U2TXStr
+                  0x00252a                  _U2RXChar
+                  0x0025a4                  _flushRX2
+                  0x0025c6                  _matlab_reset
+                  0x0025dc                  _ifreset
+                  0x0028a0                  _InitADC
+                  0x0028f0                  _readz
+                  0x002a66                  _delay
+                  0x002a84                  _main
+                  0x002ae4                  _InitTimer
+                  0x002b1c                  __T1Interrupt
                   0xf80004                  __FGS.sec
 
 External Symbols in Program Memory (by name):
 
-                  0x002882                  _InitADC
-                  0x001ea8                  _InitIMU
-                  0x001a54                  _InitPWM
-                  0x0029d0                  _InitTimer
-                  0x0022b6                  _InitUART
-                  0x001ef6                  _SENupd
-                  0x001fa2                  _SENupd2
-                  0x002484                  _U1RXChar
-                  0x0023d0                  _U1TXChar
-                  0x002442                  _U1TXDec
-                  0x0023fe                  _U1TXFloat
-                  0x0023e4                  _U1TXStr
-                  0x002526                  _U2RXChar
-                  0x0024f8                  _U2TXChar
-                  0x00250c                  _U2TXStr
+                  0x0028a0                  _InitADC
+                  0x001eac                  _InitIMU
+                  0x001a58                  _InitPWM
+                  0x002ae4                  _InitTimer
+                  0x0022ba                  _InitUART
+                  0x001efa                  _SENupd
+                  0x001fa6                  _SENupd2
+                  0x002488                  _U1RXChar
+                  0x0023d4                  _U1TXChar
+                  0x002446                  _U1TXDec
+                  0x002402                  _U1TXFloat
+                  0x0023e8                  _U1TXStr
+                  0x00252a                  _U2RXChar
+                  0x0024fc                  _U2TXChar
+                  0x002510                  _U2TXStr
                   0x000290                  __DefaultInterrupt
                   0xf80004                  __FGS.sec
-                  0x002a08                  __T1Interrupt
-                  0x001f16                  __U2RXInterrupt
+                  0x002b1c                  __T1Interrupt
+                  0x001f1a                  __U2RXInterrupt
                   0x0007bc                  ___adddf3
                   0x000374                  ___addsf3
                   0x000918                  ___divdf3
@@ -469,28 +475,28 @@ External Symbols in Program Memory (by name):
                   0x000eb4                  __vfprintf_fF
                   0x001a3c                  _back1
                   0x001a40                  _back2
-                  0x001be6                  _backmotor
-                  0x002930                  _delay
-                  0x002220                  _filtertest
-                  0x0025a0                  _flushRX2
+                  0x001bea                  _backmotor
+                  0x002a66                  _delay
+                  0x002224                  _filtertest
+                  0x0025a4                  _flushRX2
                   0x0007ac                  _frexpf
                   0x001a34                  _front1
                   0x001a38                  _front2
-                  0x001b2a                  _frontmotor
-                  0x001eba                  _getangle
-                  0x0025d8                  _ifreset
+                  0x001b2e                  _frontmotor
+                  0x001ebe                  _getangle
+                  0x0025dc                  _ifreset
                   0x001a4c                  _left1
                   0x001a50                  _left2
-                  0x001ca2                  _leftmotor
-                  0x00294e                  _main
-                  0x0025c2                  _matlab_reset
-                  0x001e02                  _pitch_stabilize
-                  0x0028d2                  _readz
+                  0x001ca6                  _leftmotor
+                  0x002a84                  _main
+                  0x0025c6                  _matlab_reset
+                  0x001e06                  _pitch_stabilize
+                  0x0028f0                  _readz
                   0x001a44                  _right1
                   0x001a48                  _right2
-                  0x001d52                  _rightmotor
-                  0x001e46                  _update_motor
-                  0x001e64                  _zeig
+                  0x001d56                  _rightmotor
+                  0x001e4a                  _update_motor
+                  0x001e68                  _zeig
 
 Memory Configuration
 
@@ -756,7 +762,7 @@ __FUID3
                   0x000014          0x4 LONG 0x290 DEFINED (__INT0Interrupt)?ABSOLUTE (__INT0Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000016          0x4 LONG 0x290 DEFINED (__IC1Interrupt)?ABSOLUTE (__IC1Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000018          0x4 LONG 0x290 DEFINED (__OC1Interrupt)?ABSOLUTE (__OC1Interrupt):ABSOLUTE (__DefaultInterrupt)
-                  0x00001a          0x4 LONG 0x2a08 DEFINED (__T1Interrupt)?ABSOLUTE (__T1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00001a          0x4 LONG 0x2b1c DEFINED (__T1Interrupt)?ABSOLUTE (__T1Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x00001c          0x4 LONG 0x290 DEFINED (__DMA0Interrupt)?ABSOLUTE (__DMA0Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x00001e          0x4 LONG 0x290 DEFINED (__IC2Interrupt)?ABSOLUTE (__IC2Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000020          0x4 LONG 0x290 DEFINED (__OC2Interrupt)?ABSOLUTE (__OC2Interrupt):ABSOLUTE (__DefaultInterrupt)
@@ -783,7 +789,7 @@ __FUID3
                   0x00004a          0x4 LONG 0x290 DEFINED (__T4Interrupt)?ABSOLUTE (__T4Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x00004c          0x4 LONG 0x290 DEFINED (__T5Interrupt)?ABSOLUTE (__T5Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x00004e          0x4 LONG 0x290 DEFINED (__INT2Interrupt)?ABSOLUTE (__INT2Interrupt):ABSOLUTE (__DefaultInterrupt)
-                  0x000050          0x4 LONG 0x1f16 DEFINED (__U2RXInterrupt)?ABSOLUTE (__U2RXInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000050          0x4 LONG 0x1f1a DEFINED (__U2RXInterrupt)?ABSOLUTE (__U2RXInterrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000052          0x4 LONG 0x290 DEFINED (__U2TXInterrupt)?ABSOLUTE (__U2TXInterrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000054          0x4 LONG 0x290 DEFINED (__SPI2ErrInterrupt)?ABSOLUTE (__SPI2ErrInterrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000056          0x4 LONG 0x290 DEFINED (__SPI2Interrupt)?ABSOLUTE (__SPI2Interrupt):ABSOLUTE (__DefaultInterrupt)
@@ -884,7 +890,7 @@ __FUID3
                   0x000114          0x4 LONG 0x290 DEFINED (__AltINT0Interrupt)?ABSOLUTE (__AltINT0Interrupt):DEFINED (__INT0Interrupt)?ABSOLUTE (__INT0Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000116          0x4 LONG 0x290 DEFINED (__AltIC1Interrupt)?ABSOLUTE (__AltIC1Interrupt):DEFINED (__IC1Interrupt)?ABSOLUTE (__IC1Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000118          0x4 LONG 0x290 DEFINED (__AltOC1Interrupt)?ABSOLUTE (__AltOC1Interrupt):DEFINED (__OC1Interrupt)?ABSOLUTE (__OC1Interrupt):ABSOLUTE (__DefaultInterrupt)
-                  0x00011a          0x4 LONG 0x2a08 DEFINED (__AltT1Interrupt)?ABSOLUTE (__AltT1Interrupt):DEFINED (__T1Interrupt)?ABSOLUTE (__T1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00011a          0x4 LONG 0x2b1c DEFINED (__AltT1Interrupt)?ABSOLUTE (__AltT1Interrupt):DEFINED (__T1Interrupt)?ABSOLUTE (__T1Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x00011c          0x4 LONG 0x290 DEFINED (__AltDMA0Interrupt)?ABSOLUTE (__AltDMA0Interrupt):DEFINED (__DMA0Interrupt)?ABSOLUTE (__DMA0Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x00011e          0x4 LONG 0x290 DEFINED (__AltIC2Interrupt)?ABSOLUTE (__AltIC2Interrupt):DEFINED (__IC2Interrupt)?ABSOLUTE (__IC2Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000120          0x4 LONG 0x290 DEFINED (__AltOC2Interrupt)?ABSOLUTE (__AltOC2Interrupt):DEFINED (__OC2Interrupt)?ABSOLUTE (__OC2Interrupt):ABSOLUTE (__DefaultInterrupt)
@@ -911,7 +917,7 @@ __FUID3
                   0x00014a          0x4 LONG 0x290 DEFINED (__AltT4Interrupt)?ABSOLUTE (__AltT4Interrupt):DEFINED (__T4Interrupt)?ABSOLUTE (__T4Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x00014c          0x4 LONG 0x290 DEFINED (__AltT5Interrupt)?ABSOLUTE (__AltT5Interrupt):DEFINED (__T5Interrupt)?ABSOLUTE (__T5Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x00014e          0x4 LONG 0x290 DEFINED (__AltINT2Interrupt)?ABSOLUTE (__AltINT2Interrupt):DEFINED (__INT2Interrupt)?ABSOLUTE (__INT2Interrupt):ABSOLUTE (__DefaultInterrupt)
-                  0x000150          0x4 LONG 0x1f16 DEFINED (__AltU2RXInterrupt)?ABSOLUTE (__AltU2RXInterrupt):DEFINED (__U2RXInterrupt)?ABSOLUTE (__U2RXInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000150          0x4 LONG 0x1f1a DEFINED (__AltU2RXInterrupt)?ABSOLUTE (__AltU2RXInterrupt):DEFINED (__U2RXInterrupt)?ABSOLUTE (__U2RXInterrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000152          0x4 LONG 0x290 DEFINED (__AltU2TXInterrupt)?ABSOLUTE (__AltU2TXInterrupt):DEFINED (__U2TXInterrupt)?ABSOLUTE (__U2TXInterrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000154          0x4 LONG 0x290 DEFINED (__AltSPI2ErrInterrupt)?ABSOLUTE (__AltSPI2ErrInterrupt):DEFINED (__SPI2ErrInterrupt)?ABSOLUTE (__SPI2ErrInterrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000156          0x4 LONG 0x290 DEFINED (__AltSPI2Interrupt)?ABSOLUTE (__AltSPI2Interrupt):DEFINED (__SPI2Interrupt)?ABSOLUTE (__SPI2Interrupt):ABSOLUTE (__DefaultInterrupt)
@@ -2189,7 +2195,7 @@ __c30_signature
  __c30_signature
                   0x00011a          0x6 c:/program files/microchip/mplabc30/v3.31/bin/bin/../../lib\libm-coff.a(dtype.o)
 
-.ndata              0x0800         0x9e
+.ndata              0x0800         0xcc
  .ndata             0x0800         0x6a IMU.o
                     0x0800                  yaw
                     0x0804                  pit
@@ -2225,52 +2231,55 @@ __c30_signature
                     0x0882                  Wr
                     0x0886                  PITi_err
                     0x088a                  gyyb
+ .ndata             0x089e         0x2e adc.o
+                    0x089e                  z
+                    0x08a0                  zfifo
+                    0x08ac                  zfilt
+                    0x08b4                  zH
+                    0x08b5                  zL
+                    0x08b6                  t
+                    0x08b8                  fA
+                    0x08c0                  fB
 
-.nbss               0x089e         0x14
- .nbss              0x089e         0x14 IMU.o
-                    0x089e                  inp_str
+.nbss               0x08cc         0x14
+ .nbss              0x08cc         0x14 IMU.o
+                    0x08cc                  inp_str
 
-.ndata              0x08b2         0x10
- .ndata             0x08b2          0x8 main.o
-                    0x08b2                  corrpit
-                    0x08b6                  still_working
-                    0x08b7                  flag1c
-                    0x08b8                  flag2c
- .ndata             0x08ba          0x4 adc.o
-                    0x08ba                  z
-                    0x08bc                  zH
-                    0x08bd                  zL
- .ndata             0x08be          0x2 muart.o
-                    0x08be                  U2RX_ERR
- .ndata             0x08c0          0x2 timer.o
-                    0x08c0                  new_frame
-                    0x08c1                  timer_clash
+.ndata              0x08e0          0xa
+ .ndata             0x08e0          0x6 main.o
+                    0x08e0                  corrpit
+                    0x08e4                  still_working
+ .ndata             0x08e6          0x2 muart.o
+                    0x08e6                  U2RX_ERR
+ .ndata             0x08e8          0x2 timer.o
+                    0x08e8                  new_frame
+                    0x08e9                  timer_clash
 
-.data               0x08c2        0x200
- .data              0x08c2        0x160 c:/program files/microchip/mplabc30/v3.31/bin/bin/../../lib\libc-coff.a(powers.XXo)
-                    0x08c2                  _npowers_
-                    0x0972                  _powers_
- .data              0x0a22         0xa0 c:/program files/microchip/mplabc30/v3.31/bin/bin/../../lib\libc-coff.a(doprnt_cdfFnopuxX.XXo)
+.data               0x08ea        0x200
+ .data              0x08ea        0x160 c:/program files/microchip/mplabc30/v3.31/bin/bin/../../lib\libc-coff.a(powers.XXo)
+                    0x08ea                  _npowers_
+                    0x099a                  _powers_
+ .data              0x0a4a         0xa0 c:/program files/microchip/mplabc30/v3.31/bin/bin/../../lib\libc-coff.a(doprnt_cdfFnopuxX.XXo)
 
-.dconst             0x0ac2         0x2a
- .dconst            0x0ac2         0x2a c:/program files/microchip/mplabc30/v3.31/bin/bin/../../lib\libc-coff.a(doprnt_cdfFnopuxX.XXo)
+.dconst             0x0aea         0x2a
+ .dconst            0x0aea         0x2a c:/program files/microchip/mplabc30/v3.31/bin/bin/../../lib\libc-coff.a(doprnt_cdfFnopuxX.XXo)
 
-.data               0x0aec         0x26
- .data              0x0aec         0x26 c:/program files/microchip/mplabc30/v3.31/bin/bin/../../lib\libc-coff.a(_iob.XXo)
-                    0x0aec                  _Files
-                    0x0aee                  _iob
+.data               0x0b14         0x26
+ .data              0x0b14         0x26 c:/program files/microchip/mplabc30/v3.31/bin/bin/../../lib\libc-coff.a(_iob.XXo)
+                    0x0b14                  _Files
+                    0x0b16                  _iob
 
-.bss                0x0b12          0x6
- .bss               0x0b12          0x6 c:/program files/microchip/mplabc30/v3.31/bin/bin/../../lib\libc-coff.a(_iob.XXo)
-                    0x0b12                  _sobuf
-                    0x0b14                  _sibuf
-                    0x0b16                  _outdone
+.bss                0x0b3a          0x6
+ .bss               0x0b3a          0x6 c:/program files/microchip/mplabc30/v3.31/bin/bin/../../lib\libc-coff.a(_iob.XXo)
+                    0x0b3a                  _sobuf
+                    0x0b3c                  _sibuf
+                    0x0b3e                  _outdone
 
-.data               0x0b18          0x2
- .data              0x0b18          0x2 c:/program files/microchip/mplabc30/v3.31/bin/bin/../../lib\libpic30-coff.a(c30_uart.o)
-                    0x0b18                  __C30_UART
+.data               0x0b40          0x2
+ .data              0x0b40          0x2 c:/program files/microchip/mplabc30/v3.31/bin/bin/../../lib\libpic30-coff.a(c30_uart.o)
+                    0x0b40                  __C30_UART
 
-.const              0x99c4         0x90 load address 0x0019c4  
+.const              0x99c4         0x94 load address 0x0019c4  
  .const             0x99c4         0x40 muart.o
  .const             0x9a04         0x30 IMU.o
  .const             0x9a34         0x20 pwm.o
@@ -2282,48 +2291,49 @@ __c30_signature
                     0x9a48                  right2
                     0x9a4c                  left1
                     0x9a50                  left2
+ .const             0x9a54          0x4 main.o
 
-.text             0x001a54        0xbd4
- .text            0x001a54        0x454 pwm.o
-                  0x001a54                  InitPWM
-                  0x001b2a                  frontmotor
-                  0x001be6                  backmotor
-                  0x001ca2                  leftmotor
-                  0x001d52                  rightmotor
-                  0x001e02                  pitch_stabilize
-                  0x001e46                  update_motor
-                  0x001e64                  zeig
- .text            0x001ea8        0x40e IMU.o
-                  0x001ea8                  InitIMU
-                  0x001eba                  getangle
-                  0x001ef6                  SENupd
-                  0x001f16                  _U2RXInterrupt
-                  0x001fa2                  SENupd2
-                  0x002220                  filtertest
- .text            0x0022b6        0x372 muart.o
-                  0x0022b6                  InitUART
-                  0x0023d0                  U1TXChar
-                  0x0023e4                  U1TXStr
-                  0x0023fe                  U1TXFloat
-                  0x002442                  U1TXDec
-                  0x002484                  U1RXChar
-                  0x0024f8                  U2TXChar
-                  0x00250c                  U2TXStr
-                  0x002526                  U2RXChar
-                  0x0025a0                  flushRX2
-                  0x0025c2                  matlab_reset
-                  0x0025d8                  ifreset
+.text             0x001a58        0xbd4
+ .text            0x001a58        0x454 pwm.o
+                  0x001a58                  InitPWM
+                  0x001b2e                  frontmotor
+                  0x001bea                  backmotor
+                  0x001ca6                  leftmotor
+                  0x001d56                  rightmotor
+                  0x001e06                  pitch_stabilize
+                  0x001e4a                  update_motor
+                  0x001e68                  zeig
+ .text            0x001eac        0x40e IMU.o
+                  0x001eac                  InitIMU
+                  0x001ebe                  getangle
+                  0x001efa                  SENupd
+                  0x001f1a                  _U2RXInterrupt
+                  0x001fa6                  SENupd2
+                  0x002224                  filtertest
+ .text            0x0022ba        0x372 muart.o
+                  0x0022ba                  InitUART
+                  0x0023d4                  U1TXChar
+                  0x0023e8                  U1TXStr
+                  0x002402                  U1TXFloat
+                  0x002446                  U1TXDec
+                  0x002488                  U1RXChar
+                  0x0024fc                  U2TXChar
+                  0x002510                  U2TXStr
+                  0x00252a                  U2RXChar
+                  0x0025a4                  flushRX2
+                  0x0025c6                  matlab_reset
+                  0x0025dc                  ifreset
 
-.dinit            0x002628        0x25a
- .dinit           0x002628        0x25a data_init
+.dinit            0x00262c        0x274
+ .dinit           0x00262c        0x274 data_init
 
-.text             0x002882        0x19a
- .text            0x002882         0xae adc.o
-                  0x002882                  InitADC
-                  0x0028d2                  readz
- .text            0x002930         0xa0 main.o
-                  0x002930                  delay
-                  0x00294e                  main
- .text            0x0029d0         0x4c timer.o
-                  0x0029d0                  InitTimer
-                  0x002a08                  _T1Interrupt
+.text             0x0028a0        0x290
+ .text            0x0028a0        0x1c6 adc.o
+                  0x0028a0                  InitADC
+                  0x0028f0                  readz
+ .text            0x002a66         0x7e main.o
+                  0x002a66                  delay
+                  0x002a84                  main
+ .text            0x002ae4         0x4c timer.o
+                  0x002ae4                  InitTimer
+                  0x002b1c                  _T1Interrupt

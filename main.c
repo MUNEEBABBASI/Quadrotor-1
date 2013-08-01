@@ -83,7 +83,7 @@ int main(void)
 //			continue;
 
 		//Functions
-//		readz();
+		readz();
 //		pack_wait=0;
 
 
