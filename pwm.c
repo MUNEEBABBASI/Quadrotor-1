@@ -26,7 +26,7 @@ const float left1  = 0.99484994, left2  = 885.89501;
 float Wf=0,Wb=0,Wl=0,Wr=0;
 float PITi_err=0;
 float gyyb[]={0,0,0,0,0};
-
+unsigned int testw=1151;
 void InitPWM(void)
 {
 //	unsigned long int i=0;
@@ -237,3 +237,16 @@ void zeig(void)
 	pitch_stabilize();
 	update_motor();
 }
+
+void testmotor(void)
+{
+	char a=0;
+	a=U1RXChar();
+	if((a=='u')&&(testw<1520))
+		testw=testw+5;
+	else if((a=='d')&&(testw>400))
+		testw=testw-5;
+	U1TXFloat(testw);
+	U1TXChar(NL);
+	P1DC3 = testw;
+}	

@@ -73,9 +73,9 @@ void readz()
 		zH=3;
 		zL=0xFF;
 	}	
-	U1TXChar(zH);
-	U1TXChar(zL);
-	U1TXChar(' ');
+//	U1TXChar(zH);
+//	U1TXChar(zL);
+//	U1TXChar(' ');
 	// Code for filter
 	//FIFO buffer
 	zfifo[0]=z;
@@ -106,7 +106,7 @@ void readz()
 	// Code for decomposition into characters again
 	zL=(z&0x00FF); 		
 	zH=(z>>8)&0x00FF;
-	U1TXChar(zH);
-	U1TXChar(zL);
-	U1TXChar(NL);
+//	U1TXChar(zH);
+//	U1TXChar(zL);
+//	U1TXChar(NL);
 }	

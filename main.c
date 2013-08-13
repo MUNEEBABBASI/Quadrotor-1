@@ -83,7 +83,8 @@ int main(void)
 //			continue;
 
 		//Functions
-		readz();
+		testmotor();
+//		readz();
 //		pack_wait=0;
 
 

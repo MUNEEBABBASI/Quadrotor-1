@@ -11,7 +11,8 @@ void leftmotor(float);
 void rightmotor(float);
 
 void zeig(void);
-void pitch_stabilize();
-void update_motor();
+void pitch_stabilize(void);
+void update_motor(void);
+void testmotor(void);
 
 #endif
