@@ -242,9 +242,9 @@ void testmotor(void)
 {
 	char a=0;
 	a=U1RXChar();
-	if((a=='u')&&(testw<1520))
+	if((a=='u')&&(testw<2300))
 		testw=testw+5;
-	else if((a=='d')&&(testw>400))
+	else if((a=='d')&&(testw>1100))
 		testw=testw-5;
 	U1TXFloat(testw);
 	U1TXChar(NL);

@@ -52,6 +52,7 @@ int main(void)
 	InitADC();
 	InitTimer();
 	
+	ifreset();
 //	matlab_reset();	
 	while(1)
 	{

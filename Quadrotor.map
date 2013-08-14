@@ -151,9 +151,9 @@ section                    address   length (PC units)   length (bytes) (dec)
 .const                      0x19c4                0x90            0xd8  (216)
 .text                       0x1a54               0xc3a          0x1257  (4695)
 .dinit                      0x268e               0x276           0x3b1  (945)
-.text                       0x2904               0x29c           0x3ea  (1002)
+.text                       0x2904               0x29e           0x3ed  (1005)
 
-                     Total program memory used (bytes):         0x3e70  (15984) 12%
+                     Total program memory used (bytes):         0x3e73  (15987) 12%
 
 
 Data Memory  [Origin = 0x800, Length = 0x4000]
@@ -401,8 +401,8 @@ External Symbols in Program Memory (by address):
                   0x002954                  _readz
                   0x002ab2                  _delay
                   0x002ad0                  _main
-                  0x002b54                  _InitTimer
-                  0x002b8c                  __T1Interrupt
+                  0x002b56                  _InitTimer
+                  0x002b8e                  __T1Interrupt
                   0xf80004                  __FGS.sec
 
 External Symbols in Program Memory (by name):
@@ -410,7 +410,7 @@ External Symbols in Program Memory (by name):
                   0x002904                  _InitADC
                   0x001f0e                  _InitIMU
                   0x001a54                  _InitPWM
-                  0x002b54                  _InitTimer
+                  0x002b56                  _InitTimer
                   0x00231c                  _InitUART
                   0x001f5c                  _SENupd
                   0x002008                  _SENupd2
@@ -424,7 +424,7 @@ External Symbols in Program Memory (by name):
                   0x002572                  _U2TXStr
                   0x000290                  __DefaultInterrupt
                   0xf80004                  __FGS.sec
-                  0x002b8c                  __T1Interrupt
+                  0x002b8e                  __T1Interrupt
                   0x001f7c                  __U2RXInterrupt
                   0x0007bc                  ___adddf3
                   0x000374                  ___addsf3
@@ -770,7 +770,7 @@ __FUID3
                   0x000014          0x4 LONG 0x290 DEFINED (__INT0Interrupt)?ABSOLUTE (__INT0Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000016          0x4 LONG 0x290 DEFINED (__IC1Interrupt)?ABSOLUTE (__IC1Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000018          0x4 LONG 0x290 DEFINED (__OC1Interrupt)?ABSOLUTE (__OC1Interrupt):ABSOLUTE (__DefaultInterrupt)
-                  0x00001a          0x4 LONG 0x2b8c DEFINED (__T1Interrupt)?ABSOLUTE (__T1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00001a          0x4 LONG 0x2b8e DEFINED (__T1Interrupt)?ABSOLUTE (__T1Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x00001c          0x4 LONG 0x290 DEFINED (__DMA0Interrupt)?ABSOLUTE (__DMA0Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x00001e          0x4 LONG 0x290 DEFINED (__IC2Interrupt)?ABSOLUTE (__IC2Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000020          0x4 LONG 0x290 DEFINED (__OC2Interrupt)?ABSOLUTE (__OC2Interrupt):ABSOLUTE (__DefaultInterrupt)
@@ -898,7 +898,7 @@ __FUID3
                   0x000114          0x4 LONG 0x290 DEFINED (__AltINT0Interrupt)?ABSOLUTE (__AltINT0Interrupt):DEFINED (__INT0Interrupt)?ABSOLUTE (__INT0Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000116          0x4 LONG 0x290 DEFINED (__AltIC1Interrupt)?ABSOLUTE (__AltIC1Interrupt):DEFINED (__IC1Interrupt)?ABSOLUTE (__IC1Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000118          0x4 LONG 0x290 DEFINED (__AltOC1Interrupt)?ABSOLUTE (__AltOC1Interrupt):DEFINED (__OC1Interrupt)?ABSOLUTE (__OC1Interrupt):ABSOLUTE (__DefaultInterrupt)
-                  0x00011a          0x4 LONG 0x2b8c DEFINED (__AltT1Interrupt)?ABSOLUTE (__AltT1Interrupt):DEFINED (__T1Interrupt)?ABSOLUTE (__T1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00011a          0x4 LONG 0x2b8e DEFINED (__AltT1Interrupt)?ABSOLUTE (__AltT1Interrupt):DEFINED (__T1Interrupt)?ABSOLUTE (__T1Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x00011c          0x4 LONG 0x290 DEFINED (__AltDMA0Interrupt)?ABSOLUTE (__AltDMA0Interrupt):DEFINED (__DMA0Interrupt)?ABSOLUTE (__DMA0Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x00011e          0x4 LONG 0x290 DEFINED (__AltIC2Interrupt)?ABSOLUTE (__AltIC2Interrupt):DEFINED (__IC2Interrupt)?ABSOLUTE (__IC2Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000120          0x4 LONG 0x290 DEFINED (__AltOC2Interrupt)?ABSOLUTE (__AltOC2Interrupt):DEFINED (__OC2Interrupt)?ABSOLUTE (__OC2Interrupt):ABSOLUTE (__DefaultInterrupt)
@@ -2338,13 +2338,13 @@ __c30_signature
 .dinit            0x00268e        0x276
  .dinit           0x00268e        0x276 data_init
 
-.text             0x002904        0x29c
+.text             0x002904        0x29e
  .text            0x002904        0x1ae adc.o
                   0x002904                  InitADC
                   0x002954                  readz
- .text            0x002ab2         0xa2 main.o
+ .text            0x002ab2         0xa4 main.o
                   0x002ab2                  delay
                   0x002ad0                  main
- .text            0x002b54         0x4c timer.o
-                  0x002b54                  InitTimer
-                  0x002b8c                  _T1Interrupt
+ .text            0x002b56         0x4c timer.o
+                  0x002b56                  InitTimer
+                  0x002b8e                  _T1Interrupt
